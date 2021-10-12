@@ -1,0 +1,47 @@
+/* CSS externo
+styles to body*/
+body{
+    color:hsl(240, 92%, 14%);
+    background-color:#837e7e;
+}
+
+/* selectores */
+/*selectores de etiqueta*/
+a{
+    color: rgb(192, 44, 135);
+}
+button{
+    color: orangered;
+    background-color: palegreen;
+    border-radius: 10px;
+    box-shadow:black;
+    border-style: groove;
+}
+input{
+    color: purple;
+    background-color:blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* selector universal, aplica a todos los elmentos*/
+*{
+    margin: 10px; /*se recomienda poner en 0*/
+    align-items: center;
+    align-content: center;
+}
+
+/*selectores de clase*/
+
+.menu-item{
+    color: lawngreen;
+}
+
+/*selector de id, 
+se identifica con un #, 
+solo se puede usar en un elemento*/
+#active{
+    background-color: yellow;
+}
+
+
+
